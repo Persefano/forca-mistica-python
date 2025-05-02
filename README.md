@@ -27,11 +27,25 @@ FORÇA DIMINUÍDA EM: 4.64%
 ## Tecnologias usadas
 - Python 3.12  
 - Módulos: `random`, `math`  
-- IDE: PyCharm  
+- IDE: PyCharm
 
 ## Objetivo
 Treinar lógica, comandos básicos e formatar saídas de forma criativa. Sem estruturas ainda — só a base firme.
 
 ---
 
-> “Cada linha de código é uma linha no pergaminho da sua jornada.”  
+> “Cada linha de código é uma linha no pergaminho da sua jornada.”
+
+## heroi.py
+
+Esse script sorteia um nome de herói místico e gera um poder aleatório.  
+Depois, calcula a “força mística” com base nesse poder usando uma fórmula simbólica:
+
+```python
+forca = math.pow(poder * 1000, 0.5)
+
+> 
+Sorteou: Fogo em Chamas  
+Poder: 42  
+Força Calculada: 204.94
+
